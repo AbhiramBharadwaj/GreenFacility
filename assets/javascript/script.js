@@ -81,7 +81,7 @@ document.querySelectorAll(".dropdown > a").forEach(link => {
 /*---------------------------------- Header Active Menu------------------------------*/
 document.addEventListener('DOMContentLoaded', function () {
     // Get current page URL
-    const currentPage = window.location.pathname.split('/').pop() || 'index-video.html';
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
 
     // Find all menu links
     const menuLinks = document.querySelectorAll('.menu a');
@@ -92,7 +92,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Check if link matches current page
         if (linkHref === currentPage ||
-            (currentPage === '' && linkHref === 'index-video.html') ||
+            (currentPage === '' && linkHref === 'index.html') ||
             (linkHref !== '#' && linkHref !== 'javascript:void(0);' && currentPage.includes(linkHref))) {
 
             // Add active class to the link
