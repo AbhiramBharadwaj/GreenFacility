@@ -1646,7 +1646,8 @@ button {
     background: #F5F6F7;
 }
 .adres-main-home {
-    display: flex;
+    display: block;
+    margin-bottom: 1rem;
     align-items: center;
     gap: 60px;
 }
