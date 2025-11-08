@@ -1,0 +1,12 @@
+# robots.txt for https://greenfacility.in/
+# This file tells search engines which pages they can crawl
+# and points them to your sitemap.
+
+User-agent: *
+Allow: /
+
+# Disallow admin or error pages if any exist
+Disallow: /error404.html
+
+# Specify the location of your sitemap
+Sitemap: https://greenfacility.in/sitemap.xml
