@@ -11,10 +11,15 @@
     <title>Green Facility | Professional Cleaning & Maintenance Services</title>
 
     <!-- Basic SEO -->
-     <!-- test SEO -->
     <meta name="description" content="Green Facility provides top-quality cleaning and maintenance services for homes, offices and commercial spaces. Trusted professionals delivering eco-friendly cleaning solutions.">
-    <meta name="keywords" content="Green Facility, cleaning services, professional cleaning, commercial cleaning, home cleaning, maintenance services, eco friendly cleaning, janitorial services">
+    <meta name="keywords" content="Green Facility, cleaning services, professional cleaning, commercial cleaning, home cleaning, maintenance services, eco friendly cleaning, janitorial services, Mumbai, Navi Mumbai, Pune, Gujarat">
     <meta name="author" content="Green Facility">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://greenfacility.in/">
+
+    <!-- Language & Locale -->
+    <meta http-equiv="content-language" content="en-IN">
+    <link rel="alternate" hreflang="en-in" href="https://greenfacility.in/">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="assets/images/svg/favicon.svg">
@@ -23,9 +28,10 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="Green Facility | Professional Cleaning & Maintenance Services">
     <meta property="og:description" content="Trusted cleaning and maintenance services with an eco-friendly approach. Book Green Facility for spotless results.">
-    <meta property="og:url" content="https://greenfacility.in/assets/images/backgroundBanner.png">
+    <meta property="og:url" content="https://greenfacility.in/">
     <meta property="og:image" content="https://greenfacility.in/assets/images/backgroundBanner.png">
     <meta property="og:site_name" content="Green Facility">
+    <meta property="og:locale" content="en_IN">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -40,18 +46,59 @@
       "@type": "LocalBusiness",
       "name": "Green Facility",
       "image": "https://greenfacility.in/assets/images/backgroundBanner.png",
+      "@id": "https://greenfacility.in",
       "url": "https://greenfacility.in",
       "telephone": "+91-99204-53384",
+      "email": "admin@greenfacility.in",
+      "priceRange": "₹₹",
       "description": "Green Facility provides professional, eco-friendly cleaning and maintenance services for residential and commercial properties.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "Mumbai",
+        "streetAddress": "18/04, Om Sai Niwas, J.V.L. Road, Milind Nagar",
         "addressLocality": "Mumbai",
         "addressRegion": "Maharashtra",
-        "postalCode": "123456",
+        "postalCode": "400072",
         "addressCountry": "IN"
       },
-      "openingHours": "Mo-Sa 08:00-20:00"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 19.1136,
+        "longitude": 72.9081
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "15:00"
+        }
+      ],
+      "areaServed": [
+        {"@type": "City", "name": "Mumbai"},
+        {"@type": "City", "name": "Navi Mumbai"},
+        {"@type": "City", "name": "Pune"},
+        {"@type": "State", "name": "Gujarat"}
+      ]
+    }
+    </script>
+
+    <!-- Breadcrumb Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://greenfacility.in/"
+      }]
     }
     </script>
 
